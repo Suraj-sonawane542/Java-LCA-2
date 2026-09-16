@@ -1,0 +1,23 @@
+public class useme {
+    public void area(double radius) {
+        double result = 3.14 * radius * radius;
+        System.out.println("Area of circle = " + result);
+    }
+
+    public void percentage(double marks, double total) {
+        double result = (marks / total) * 100;
+        System.out.println("Percentage = " + result + "%");
+    }
+    public static void main(String[] args) {
+
+        useme obj = new useme();
+
+        obj.area(5);
+        obj.percentage(450, 500);
+    }
+Output:
+PS C:\Users\DELL\OneDrive\Desktop\java lca> javac useme.java
+PS C:\Users\DELL\OneDrive\Desktop\java lca> java useme
+Area of circle = 78.5
+Percentage = 90.0%
+PS C:\Users\DELL\OneDrive\Desktop\java lca>
